@@ -142,6 +142,7 @@ fastlane produce enable_services --help
 --custom-network-protocol             Enable Custom Network Protocol
 --data-protection STRING              Enable Data Protection, suitable values are "complete", "unlessopen" and "untilfirstauth"
 --extended-virtual-address-space      Enable Extended Virtual Address Space
+--declared-age-range                  Enable Declared Age Range capability
 --game-center STRING                  Enable Game Center, suitable values are "ios" and "macos
 --health-kit                          Enable Health Kit
 --hls-interstitial-preview            Enable Hls Interstitial Preview
@@ -201,10 +202,11 @@ fastlane produce disable_services --help
 --associated-domains                  Disable Associated Domains
 --auto-fill-credential                Disable Auto Fill Credential
 --class-kit                           Disable Class Kit
---icloud STRING                        Disable iCloud
+--icloud STRING                       Disable iCloud
 --custom-network-protocol             Disable Custom Network Protocol
 --data-protection STRING              Disable Data Protection
 --extended-virtual-address-space      Disable Extended Virtual Address Space
+--declared-age-range                  Disable Declared Age Range capability
 --game-center STRING                  Disable Game Center
 --health-kit                          Disable Health Kit
 --hls-interstitial-preview            Disable Hls Interstitial Preview
